@@ -1,0 +1,113 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+.itens{
+    display: flex;
+    justify-content: center;
+    font-family:sistem-ui, -apple-system, helvetica,arial,sans-serif ;
+    letter-spacing: 4px;
+    font-size: 25px;
+    margin:30px;
+}
+.head{
+    padding: 50px;
+    background-color: #484FF3;
+}
+.titulo{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 12px;
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    letter-spacing: 3px;
+}
+li:no(:last-child){
+    margin-right: 20px;
+}
+a{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.container{
+    padding-left: 0px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 40px;
+    box-shadow: 0px 0px 30px rgb(1, 3, 28);
+    width: 500px;
+    height: 500px;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(45, 45, 133);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+
+}
+.form{
+    padding: 20px;
+}
+.formulario-entrada{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom:20px ;
+    position: relative;
+}
+.formulario-entrada label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.formulario-entrada input{
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 225%;
+    padding: 10px;
+}
+.formulario-entrada2{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom:20px ;
+    position: relative;
+}
+.formulario-entrada2 label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.formulario-entrada2 input{
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    width: 225%;
+    padding-bottom: 50px;
+}
+.form button{
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tituloContato{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
